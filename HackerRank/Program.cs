@@ -132,25 +132,47 @@ namespace HackerRank
 
             //***********************************
             //Time Conversion - convert string to military time
-            string time = "11:05:45AM";
-            char a = time[0];
-            char b = time[1];
-            char c = time[8];   
-            char d = time[9];
-            string segment = time.Substring(2, 6);
-            string str = a.ToString() + b.ToString();
-            string ampm = c.ToString() + d.ToString();
-            int hours = int.Parse(str);
-            
-            if (ampm == "PM")
-            {
-                hours += 12;
-            }
-            string hour = hours.ToString();
-            string result = hour + segment;
-                
-            Console.WriteLine(result);
-            
+            //string time = "11:05:45AM";
+            //char a = time[0];
+            //char b = time[1];
+            //char c = time[8];   
+            //char d = time[9];
+            //string segment = time.Substring(2, 6);
+            //string str = a.ToString() + b.ToString();
+            //string ampm = c.ToString() + d.ToString();
+            //int hours = int.Parse(str);
+
+            //if (ampm == "PM")
+            //{
+            //    hours += 12;
+            //}
+            //if(ampm == "AM" && hours == 12)
+            //{
+            //    hours = 0;
+            //}
+            //string hour = hours.ToString();
+            //string result = hour + segment;
+
+            //Console.WriteLine(result);
+
+            //Cats and a Mouse
+            //int x = 1;
+            //int y = 3;
+            //int z = 2;
+            //int catADiff = Math.Abs(x - z);
+            //int catBDiff = Math.Abs(y - z);
+            //if(catADiff > catBDiff)
+            //{
+            //    Console.WriteLine("Cat B");
+            //}
+            //else if(catADiff < catBDiff)
+            //{
+            //    Console.WriteLine("Cat A");
+            //}
+            //if(catADiff == catBDiff)
+            //{
+            //    Console.WriteLine("Mouse C");
+            //}
 
 
 
