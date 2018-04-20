@@ -174,6 +174,26 @@ namespace HackerRank
             //    Console.WriteLine("Mouse C");
             //}
 
+            //The hurdle race
+            int[] height = new int[] { 1, 1, 3, 3, 2, };
+            int k = 4;
+            int maxHeight = 0;
+            for (int i = 0; i < height.Length - 1; i++)
+            {
+                if(height[i] > maxHeight)
+                {
+                    maxHeight = height[i];
+                }
+            }
+            int heightDiff = maxHeight - k;
+            if(heightDiff <= 0)
+            {
+                Console.WriteLine(0);
+            }
+            if(heightDiff > 0)
+            {
+                Console.WriteLine(heightDiff);
+            }
 
 
             Console.ReadKey();
