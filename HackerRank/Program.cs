@@ -175,25 +175,59 @@ namespace HackerRank
             //}
 
             //The hurdle race
-            int[] height = new int[] { 1, 1, 3, 3, 2, };
-            int k = 4;
-            int maxHeight = 0;
-            for (int i = 0; i < height.Length - 1; i++)
-            {
-                if(height[i] > maxHeight)
-                {
-                    maxHeight = height[i];
-                }
-            }
-            int heightDiff = maxHeight - k;
-            if(heightDiff <= 0)
-            {
-                Console.WriteLine(0);
-            }
-            if(heightDiff > 0)
-            {
-                Console.WriteLine(heightDiff);
-            }
+            //int[] height = new int[] { 1, 1, 3, 3, 2, };
+            //int k = 4;
+            //int maxHeight = 0;
+            //for (int i = 0; i < height.Length - 1; i++)
+            //{
+            //    if(height[i] > maxHeight)
+            //    {
+            //        maxHeight = height[i];
+            //    }
+            //}
+            //int heightDiff = maxHeight - k;
+            //if(heightDiff <= 0)
+            //{
+            //    Console.WriteLine(0);
+            //}
+            //if(heightDiff > 0)
+            //{
+            //    Console.WriteLine(heightDiff);
+            //}
+
+            //Climbing the Leaderboard
+            //int[] scores = new int[] { 100, 100, 50, 40, 40, 20, 10 };
+            //int[] alice = new int[] { 5, 25, 50, 120 };
+
+            //var uniqueScores = new List<int>();
+
+            //var hashset = new HashSet<int>();
+            //int counter = 1;
+            //foreach (var item in scores)
+            //{
+            //    if (hashset.Add(item))
+            //    {
+            //        uniqueScores.Add(item);
+               
+            //    }
+            //}
+            
+            //foreach (var item in alice)
+            //{
+            //    foreach (var score in uniqueScores)
+            //    {
+            //        if (score > item)
+            //        {
+            //            counter++;
+            //        }
+
+            //    }
+            //    Console.WriteLine(counter);
+            //    counter = 1;
+            //}
+
+
+
 
 
             Console.ReadKey();
